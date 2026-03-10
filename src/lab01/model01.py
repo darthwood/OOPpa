@@ -12,13 +12,28 @@ class Transaction:
 class Credit:
     """Кредит"""
     def __init__(self, amount: float, rate: float):
-        self.__amount = self._validate(amount, "Сумма кредита")
-        self.__rate = self._validate(rate, "Ставка")
+        self.__amount = amount
+        self.__rate = rate
         self.__is_paid = False
 
     def _validate(self, val, name):
         if val <= 0: raise ValueError(f"{name} Должна быть > 0")
         return val
+    
+    @property
+    def amount(self):return self.__amount
+
+    @amount.setter
+    def amount(self, value):
+        self.__amount = self._validate(value, "Сумма кредита")
+
+    @property
+    def rate(self):
+        return self.__rate
+    
+    @rate.setter
+    def rate(self, value):
+        self.__rate = self._validate(value, "Ставка")
     
     def get_full_debt(self):
         return self.__amount * (1 + self.__rate / 100)

@@ -47,6 +47,13 @@ def run_full_test():
     another_user = Client("Андрей Игоревич", another_acc)
     print(f"Клиенты идентичны по номеру счета? {user == another_user}")
 
+    print("\n=== ВНИМАНИЕ! ТЕСТ 9 Защита от умников ===")
+    c = Credit(1000, 10)
+    try:
+        c.rate = -100 # кривая ставка
+    except ValueError as e:
+        print(f"Внимание! Нарушитель!: {e}")
+
 
 if __name__ == "__main__":
     run_full_test()
