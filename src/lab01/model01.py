@@ -94,7 +94,7 @@ class BankAccount:
         status = "Заморожен" if self.__is_frozen else "Активен"
         msg = f"Счет {self.__acc_id} | Баланс: {self.__balance}$ | {status}"
         if self.__balance < 0:
-            msg == "!!! ВНИМАНИЕ: ДОЛЖНИК !!!"
+            msg = "!!! ВНИМАНИЕ: ДОЛЖНИК !!!"
         return msg
 
 
