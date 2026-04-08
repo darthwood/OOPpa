@@ -2,39 +2,39 @@
 # **Запуск тестирования**
 тест 1. Массовое добавление через add
 
-![01](https://github.com/darthwood/OOPpa/blob/main/images/lab02/01.png)
+![01](https://github.com/darthwood/OOPpa/blob/main/images/lab02/1.png)
 
 тест 2. Тестим iter
 
-![02](https://github.com/darthwood/OOPpa/blob/main/images/lab02/02.png)
+![02](https://github.com/darthwood/OOPpa/blob/main/images/lab02/2.png)
 
 тест 3. Тестим get by id
 
-![03](https://github.com/darthwood/OOPpa/blob/main/images/lab02/03.png)
+![03](https://github.com/darthwood/OOPpa/blob/main/images/lab02/3.png)
 
 тест 4. Тестим remove
 
-![04](https://github.com/darthwood/OOPpa/blob/main/images/lab02/04.png)
+![04](https://github.com/darthwood/OOPpa/blob/main/images/lab02/4.png)
 
 тест 5. Тестим get item
 
-![05](https://github.com/darthwood/OOPpa/blob/main/images/lab02/05.png)
+![05](https://github.com/darthwood/OOPpa/blob/main/images/lab02/5.png)
 
 тест 6. Тестим get all
 
-![06](https://github.com/darthwood/OOPpa/blob/main/images/lab02/06.png)
+![06](https://github.com/darthwood/OOPpa/blob/main/images/lab02/6.png)
 
 тест 7. Тестим find by id
 
-![07](https://github.com/darthwood/OOPpa/blob/main/images/lab02/07.png)
+![07](https://github.com/darthwood/OOPpa/blob/main/images/lab02/7.png)
 
 тест 8. Тестим find by name
 
-![08](https://github.com/darthwood/OOPpa/blob/main/images/lab02/08.png)
+![08](https://github.com/darthwood/OOPpa/blob/main/images/lab02/8.png)
 
 тест 9. Тестим find by title
 
-![09](https://github.com/darthwood/OOPpa/blob/main/images/lab02/09.png)
+![09](https://github.com/darthwood/OOPpa/blob/main/images/lab02/9.png)
 
 тест 10. Тестим сортировки по имени и по балансу
 
