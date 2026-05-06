@@ -101,3 +101,37 @@ class ClientCollection:
             if c._Client__account.balance > threshold:
                 result.add(c)
         return result 
+    
+        # 1. ПОЛИМОРФИЗМ (Гуд-паттерн: вызываем метод без проверки типа)
+    def process_all_accounts(self):
+        """Запускает ежемесячную обработку для каждого клиента"""
+        print(f"\n--- Запуск банковской обработки для {len(self)} клиентов ---")
+        for client in self.__clients:
+            # Вызываем process() у аккаунта клиента. 
+            # Python сам решит, чья это реализация: Savings, Corporate или Credit
+            client.account.process() 
+
+    # 2. ФИЛЬТРАЦИЯ ПО ТИПУ (через isinstance)
+    def get_only_savings(self):
+        """Выборка только клиентов со сберегательными счетами"""
+        result = ClientCollection()
+        for c in self.__clients:
+            if isinstance(c.account, SavingsAccount):
+                result.add(c)
+        return result
+
+    def get_only_corporate(self):
+        """Выборка только корпоративных клиентов"""
+        result = ClientCollection()
+        for c in self.__clients:
+            if isinstance(c.account, CorporateAccount):
+                result.add(c)
+        return result
+
+    def get_only_credit_cards(self):
+        """Выборка только владельцев кредитных карт"""
+        result = ClientCollection()
+        for c in self.__clients:
+            if isinstance(c.account, CreditCard):
+                result.add(c)
+        return result
