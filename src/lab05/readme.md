@@ -31,13 +31,13 @@
 
 ### Сценарий 1: Конвейер жадности (`Filter -> Sort -> Apply`)
 Подтверждение успешной работы непрерывной цепочки функциональных вызовов и начисления бонуса.
-![01](https://github.com/darthwood/OOPpa/blob/main/images/lab05/02.png)
+![02](https://github.com/darthwood/OOPpa/blob/main/images/lab05/02.png)
 ### Сценарий 2: Взаимозаменяемость стратегий сортировки
 Демонстрация того, как коллекция послушно меняет порядок элементов при передаче разных функций-ключей.
-![01](https://github.com/darthwood/OOPpa/blob/main/images/lab05/03.png)
+![03](https://github.com/darthwood/OOPpa/blob/main/images/lab05/03.png)
 ### Сценарий 3: Операция «Обдиралово» (Замыкание и Callable-налог)
 Работа фабричного фильтра должников и тотальное списание 10% налога с помощью объекта класса.
-![01](https://github.com/darthwood/OOPpa/blob/main/images/lab05/04.png)
+![04](https://github.com/darthwood/OOPpa/blob/main/images/lab05/04.png)
 ### Дополнительно: Проверка кастомных методов `Map` и `Reduce`
 Выделение плоского списка имен из объектов и итоговый подсчет чистых активов в сейфе банка.
-![01](https://github.com/darthwood/OOPpa/blob/main/images/lab05/05.png)
+![05](https://github.com/darthwood/OOPpa/blob/main/images/lab05/05.png)

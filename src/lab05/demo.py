@@ -67,11 +67,11 @@ if __name__ == "__main__":
     print("\n================== ДОПОЛНИТЕЛЬНО: ПРОВЕРКА MAP И REDUCE ==================")
     # Демонстрируем метод map_to_list: выковыриваем из клиентов только их имена
     client_names = collection.map_to_list(lambda client: client.name)  # Потрошим коллекцию через лямбду
-    print(f"🕵️‍♂️ Выкрали чистый список имен кожаных мешков (через map_to_list): {client_names}")
+    print(f"Выкрали чистый список имен кожаных мешков (через map_to_list): {client_names}")
 
     # Демонстрируем метод reduce_to_value: схлопываем всю коллекцию в одно число
     total_bank_cash = collection.reduce_to_value(
         lambda acc, client: acc + (client.account.balance if client.account.balance > 0 else 0), 
         initial=0.0
     )  # Считаем бабло. Если у клиента на балансе минус, то плюсуем 0, чтобы не портить общую кассу
-    print(f"💰 Сколько реального бабла лежит в нашем сейфе (сумма всех плюсовых балансов через reduce_to_value): {total_bank_cash}$")  # Куш
+    print(f"Сколько реального бабла лежит в нашем сейфе (сумма всех плюсовых балансов через reduce_to_value): {total_bank_cash}$")  # Куш
