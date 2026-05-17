@@ -9,3 +9,6 @@
 
 # Лабораторная работа №4 выполнена! # 
 ![gif1](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWlvOGpua21qZDRkYmRqb25jNWJ0cG41OHI3YTM5bG12ZmN3amxlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vHqYqMzqQYl7wdetsS/giphy.gif)
+
+# Лабораторная работа №5 выполнена! # 
+![gif1](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmt6a2EyMXZwN3E0ZW1hcTU2YWtpZ2I3ZHVyZmxmcTZkY3QxZDM3YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gQdejV5BBChHi/giphy.gif)
