@@ -36,15 +36,21 @@
 
 ### Сценарий 1: Полиморфный обсчет обслуживания
 В цикле вызывается `.calculate_annual_maintenance()` для каждого аккаунта. Система без лишних `if` выдает разные результаты для разных классов.
+
 ![02](https://github.com/darthwood/OOPpa/blob/main/images/lab03/2.png)
+
 Ну и результат, конечно же
+
 ![03](https://github.com/darthwood/OOPpa/blob/main/images/lab03/3.png)
 
 
 ### Сценарий 2: Операция «Фильтрация»
 Работа метода `get_only_debtors()`. Коллекция с помощью `isinstance()` безошибочно выдергивает из общей массы только неплательщиков для отправки уведомлений.
+
 ![04](https://github.com/darthwood/OOPpa/blob/main/images/lab03/4.png)
+
 Что выводит
+
 ![05](https://github.com/darthwood/OOPpa/blob/main/images/lab03/5.png)
 
 
