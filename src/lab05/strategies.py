@@ -38,7 +38,7 @@ def make_debt_filter(min_debt: float):
         if isinstance(client.account, CreditCard):
             return client.account.debt >= min_debt  # Если карта есть, проверяем, достаточно ли глубоко он погряз в долгах
         return False  # Обычных работяг без кредитных карт сразу отшиваем
-    return filter_fn  # Отдаем настроенного агента-ищейку наружу
+    return filter_fn # Отдаем настроенного агента-ищейку наружу
 
 # Дополнительный фильтр, чтоб фильтров побольше было
 def filter_positive_balance(client: Client):

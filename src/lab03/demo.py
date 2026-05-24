@@ -7,6 +7,12 @@ ETO_BASA = [
     BankAccount("USER-99", 100.0) 
 ]
 
+print("=== Это база ===")
+for gudvin in ETO_BASA:
+    print(gudvin)
+
+
+
 print("=== 1. ТЕСТ ПОЛИМОРФИЗМА  ===")
 for acc in ETO_BASA:
     acc.process() 
