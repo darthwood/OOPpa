@@ -1,8 +1,8 @@
-import storage  # Подключаем наш файловый склад
-from app import BankApplication  # Подключаем бизнес-логику
-from cli import BankCLI  # Подключаем интерфейс
+import storage  
+from app import BankApplication  
+from cli import BankCLI  
 
-DATABASE_FILE = "bank_database.json"  # Имя файла, где будут храниться все наши секреты
+DATABASE_FILE = "bank_database.json"  
 
 def main() -> None:
     """Главная функция, запускающая весь этот финансовый балаган."""
